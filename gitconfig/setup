@@ -32,3 +32,6 @@ add the mipad access to this repository --test
     ssh-keygen,add to github
     git clone repository SSH link
     test by modify this file and push
+      git add .
+      git commit -m "commit text"
+      git push
