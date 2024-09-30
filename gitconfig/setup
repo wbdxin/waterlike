@@ -1,0 +1,22 @@
+1.register github account[www.github.com]
+2.install git tools
+3.generate ssh key[ssh-keygen -t rsa]
+4.config global git account
+  - git config --global user.name "username"
+  - git config --global user.email "email"
+5.cat id_rsa.pub and copy the content
+6.login github account,setting,select "ssh and gpg keys","new ssh key",name it,past id_rsa.pub content
+7.test the commit code
+    back to local folder
+    echo "# sometext" >> README.md
+    git init
+    git add .
+    git commit -m "commit text"
+    git branch -M main
+    git git remote add origin "github ssh link from github"
+    git git push -u origin main ;only first time push
+
+    after first push
+    git add .
+    git commit -m "commit text"
+    git push
