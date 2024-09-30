@@ -22,3 +22,13 @@
     git push
 
 https://zhuanlan.zhihu.com/p/92598182
+
+add the mipad access to this repository --test
+    install termux
+    install proot-distro
+    install ubuntu24.04
+    addnew user with sudo 
+    install git,config user.name/user.email
+    ssh-keygen,add to github
+    git clone repository SSH link
+    test by modify this file and push
