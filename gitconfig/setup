@@ -1,6 +1,8 @@
+https://zhuanlan.zhihu.com/p/92598182
+
 1.register github account[www.github.com]
 2.install git tools
-3.generate ssh key[ssh-keygen -t rsa]
+3.generate ssh key[ssh-keygen -t rsa -b 4096 -C "email_address"]
 4.config global git account
   - git config --global user.name "username"
   - git config --global user.email "email"
@@ -20,8 +22,6 @@
     git add .
     git commit -m "commit text"
     git push
-
-https://zhuanlan.zhihu.com/p/92598182
 
 add the mipad access to this repository --test
     install termux
