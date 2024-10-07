@@ -8,7 +8,7 @@
 >
 >> this is the inline block.
 
-> #### the ref whit other format,such as title.
+> #### the ref with other format,such as title.
 >
 > - test text.
 > - test text 2.
